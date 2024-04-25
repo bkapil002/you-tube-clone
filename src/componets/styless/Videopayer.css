@@ -1,0 +1,165 @@
+/* VideoPlayer.css */
+.channel {
+    display: flex;
+  }
+  .channel-thumbnail-2{
+    border-radius: 50%;
+    height: 48px;
+  }
+  .video-player{
+    display: f;
+  }
+  .data h4{
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  .fulldetails{
+    width: 640px
+    
+  }
+  .videoss{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+  }
+
+  .video {
+    width: 640px;
+    height: 360px;
+  }
+  
+.name-channel{
+  margin-left: 40px;
+}
+  
+  .name-channel h5{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.842);
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+
+  .name-channel p{
+       color: rgba(0, 0, 0, 0.473);
+       font-size: 15px;
+  }
+
+
+
+  .like-dislike i{
+     cursor: pointer;
+  }
+  .thumbs-up-clicked {
+    color: rgb(194, 25, 25); /* Change to the desired color */
+  }
+
+
+
+
+  /* subcribe*/
+button {
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+  margin-left: 30px;
+  background-color: rgba(0, 0, 0, 0.171);
+ }
+ 
+ button::before,
+ button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transform: skew(15deg);
+  transition: all 0.5s;
+  overflow: hidden;
+  z-index: -1;
+ }
+ 
+ button::before {
+  left: -10px;
+  background: #460000;
+ }
+ 
+ button::after {
+  right: -10px;
+  background: #941212;
+ }
+ 
+ button:hover::before,
+ button:hover::after {
+  width: 58%;
+ }
+ 
+ button:hover span {
+  color: #ffffff;
+  transition: 0.3s;
+ }
+ 
+ button span {
+  color: #01010f;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+ }
+
+
+
+.user-comments{
+  margin-top: 20px;
+  display: flex;
+}
+
+.user-comments img{
+  border-radius: 50%;
+  height: 38px; 
+}
+
+.comments-data{
+  margin-left: 8px;
+}
+.comments-data h5{
+    font-size: 15px;
+}
+
+
+.comment {
+   margin-top: 12px;
+}
+
+
+
+.like-dislike{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 40px;
+  align-items: center;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.24);
+}
+.center-line::before {
+  content: '';
+  border-left: 1px solid black; 
+  height: 30px; 
+}
+
+.like-dislike i{
+  font-size: 18px;
+}
+
+.subcribe{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
